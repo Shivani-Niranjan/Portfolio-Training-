@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
@@ -49,8 +50,8 @@ body {
 }
 
 #project-img{
-    height: 260px;
-    width: auto;
+    /* height: 260px; */
+    max-width: 100%;
     border-radius: 20px;
 }
 
@@ -61,15 +62,12 @@ body {
 }
 
 .project-item{
-    resize: horizontal;
+    width: 33.33333333%;
+    padding: 25px;
 }
 
 .project-item h3{
     padding-top: 5%;
-}
-
-.project-item p{
-    width: 80%;
 }
 
 .project-div h1{
